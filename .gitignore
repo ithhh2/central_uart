@@ -1,0 +1,19 @@
+# editors
+*.swp
+*~
+
+# build
+/build*/
+
+# private local reference materials
+/docs/
+
+# published firmware artifacts
+/firmware/*
+!/firmware/nrf52840_ble_at_host/
+!/firmware/nrf52840_ble_at_host/nrf52840_ble_at_host.hex
+!/firmware/nrf52840_ble_at_host/nrf52840_ble_at_host.zip
+
+# Python caches
+__pycache__/
+*.pyc
